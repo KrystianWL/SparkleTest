@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Sparkle tests</title>
+        <link>https://exmaple.com/</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.1</title>
+            <sparkle:releaseNotesLink>https://yourdomain.com/releasenotes.html</sparkle:releaseNotesLink>
+            <pubDate>Tue, 27 Jun 2023 14:30:15 +0000</pubDate>
+            <enclosure url="https://yourdomain.com/yourapp.zip" length="123456789" type="application/octet-stream" sparkle:version="1.1"/>
+        </item>
+    </channel>
+</rss>

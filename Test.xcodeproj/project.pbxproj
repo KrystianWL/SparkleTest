@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4737C062A0CD27500B17712 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4737C052A0CD27500B17712 /* ContentViewModel.swift */; };
 		D4D515C02A02ADE300B5BB2C /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515BF2A02ADE300B5BB2C /* TestApp.swift */; };
 		D4D515C22A02ADE300B5BB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515C12A02ADE300B5BB2C /* ContentView.swift */; };
 		D4D515C42A02ADE400B5BB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D515C32A02ADE400B5BB2C /* Assets.xcassets */; };
 		D4D515C72A02ADE400B5BB2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D515C62A02ADE400B5BB2C /* Preview Assets.xcassets */; };
-		D4D515D22A02ADE400B5BB2C /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515D12A02ADE400B5BB2C /* TestTests.swift */; };
+		D4D515D22A02ADE400B5BB2C /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515D12A02ADE400B5BB2C /* ContentViewModelTests.swift */; };
 		D4D515DC2A02ADE400B5BB2C /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515DB2A02ADE400B5BB2C /* TestUITests.swift */; };
 		D4D515DE2A02ADE400B5BB2C /* TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D515DD2A02ADE400B5BB2C /* TestUITestsLaunchTests.swift */; };
+		D4E1B55B2A49B9A4007108C5 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = D4E1B55A2A49B9A4007108C5 /* Sparkle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D4D516012A02ADF900B5BB2C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D4737C052A0CD27500B17712 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D4737C072A0CDEF100B17712 /* Test.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test.xctestplan; sourceTree = SOURCE_ROOT; };
 		D4D515BC2A02ADE300B5BB2C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D515BF2A02ADE300B5BB2C /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
 		D4D515C12A02ADE300B5BB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +58,7 @@
 		D4D515C62A02ADE400B5BB2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4D515C82A02ADE400B5BB2C /* Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test.entitlements; sourceTree = "<group>"; };
 		D4D515CD2A02ADE400B5BB2C /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4D515D12A02ADE400B5BB2C /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		D4D515D12A02ADE400B5BB2C /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
 		D4D515D72A02ADE400B5BB2C /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D515DB2A02ADE400B5BB2C /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		D4D515DD2A02ADE400B5BB2C /* TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E1B55B2A49B9A4007108C5 /* Sparkle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +118,7 @@
 				D4D515C32A02ADE400B5BB2C /* Assets.xcassets */,
 				D4D515C82A02ADE400B5BB2C /* Test.entitlements */,
 				D4D515C52A02ADE400B5BB2C /* Preview Content */,
+				D4737C052A0CD27500B17712 /* ContentViewModel.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -115,7 +134,8 @@
 		D4D515D02A02ADE400B5BB2C /* TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				D4D515D12A02ADE400B5BB2C /* TestTests.swift */,
+				D4D515D12A02ADE400B5BB2C /* ContentViewModelTests.swift */,
+				D4737C072A0CDEF100B17712 /* Test.xctestplan */,
 			);
 			path = TestTests;
 			sourceTree = "<group>";
@@ -139,12 +159,16 @@
 				D4D515B82A02ADE300B5BB2C /* Sources */,
 				D4D515B92A02ADE300B5BB2C /* Frameworks */,
 				D4D515BA2A02ADE300B5BB2C /* Resources */,
+				D4D516012A02ADF900B5BB2C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Test;
+			packageProductDependencies = (
+				D4E1B55A2A49B9A4007108C5 /* Sparkle */,
+			);
 			productName = Test;
 			productReference = D4D515BC2A02ADE300B5BB2C /* Test.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +241,9 @@
 				Base,
 			);
 			mainGroup = D4D515B32A02ADE300B5BB2C;
+			packageReferences = (
+				D4E1B5592A49B9A4007108C5 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
 			productRefGroup = D4D515BD2A02ADE300B5BB2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +288,7 @@
 			files = (
 				D4D515C22A02ADE300B5BB2C /* ContentView.swift in Sources */,
 				D4D515C02A02ADE300B5BB2C /* TestApp.swift in Sources */,
+				D4737C062A0CD27500B17712 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D515D22A02ADE400B5BB2C /* TestTests.swift in Sources */,
+				D4D515D22A02ADE400B5BB2C /* ContentViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +441,7 @@
 		D4D515E22A02ADE400B5BB2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
@@ -440,6 +469,7 @@
 		D4D515E32A02ADE400B5BB2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Test/Test.entitlements;
@@ -576,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4E1B5592A49B9A4007108C5 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4E1B55A2A49B9A4007108C5 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4E1B5592A49B9A4007108C5 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4D515B42A02ADE300B5BB2C /* Project object */;
 }
