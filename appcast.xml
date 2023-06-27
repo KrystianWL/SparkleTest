@@ -9,7 +9,7 @@
             <title>Version 1.1</title>
             <sparkle:releaseNotesLink>https://yourdomain.com/releasenotes.html</sparkle:releaseNotesLink>
             <pubDate>Tue, 27 Jun 2023 14:30:15 +0000</pubDate>
-            <enclosure url="https://yourdomain.com/yourapp.zip" length="123456789" type="application/octet-stream" sparkle:version="1.1"/>
+            <enclosure url="https://github.com/KrystianWL/SparkleTest/blob/master/Test.dmg.zip" length="7748410" type="application/octet-stream" sparkle:version="1.1"/>
         </item>
     </channel>
 </rss>
