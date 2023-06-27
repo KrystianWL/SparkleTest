@@ -49,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D45C5AB72A4AFDD200477D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D4737C052A0CD27500B17712 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		D4737C072A0CDEF100B17712 /* Test.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Test.xctestplan; sourceTree = SOURCE_ROOT; };
 		D4D515BC2A02ADE300B5BB2C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +114,7 @@
 		D4D515BE2A02ADE300B5BB2C /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				D45C5AB72A4AFDD200477D8E /* Info.plist */,
 				D4D515BF2A02ADE300B5BB2C /* TestApp.swift */,
 				D4D515C12A02ADE300B5BB2C /* ContentView.swift */,
 				D4D515C32A02ADE400B5BB2C /* Assets.xcassets */,
@@ -453,6 +455,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Test/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,6 +484,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Test/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
