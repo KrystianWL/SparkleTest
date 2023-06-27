@@ -9,7 +9,7 @@
             <title>Version 0.0.2</title>
             <sparkle:releaseNotesLink>https://raw.githubusercontent.com/KrystianWL/SparkleTest/master/release.html</sparkle:releaseNotesLink>
             <pubDate>Tue, 27 Jun 2023 14:30:15 +0000</pubDate>
-            <enclosure url="https://raw.githubusercontent.com/KrystianWL/SparkleTest/master/Cargo.dmg.zip" length="59598934" type="application/octet-stream" sparkle:version="1.1"/>
+            <enclosure url="https://raw.githubusercontent.com/KrystianWL/SparkleTest/master/Cargo.dmg" length="59598934" type="application/octet-stream" sparkle:version="0.0.2"/>
         </item>
     </channel>
 </rss>
