@@ -8,7 +8,7 @@
             <sparkle:version>613</sparkle:version>
             <sparkle:shortVersionString>0.3.613</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/KrystianWL/SparkleTest/releases/download/0.3.613/Cargo.dmg" length="109177223" type="application/octet-stream" sparkle:edSignature="3FVPoZWWNwAYsijtyIF3ozkC3xtqJHSE4/Wwe+n4dkbo9JBP8xuEgpbk1eik5yS6R3UmrinuFkw96IZIIHA6DA=="/>
+            <enclosure url="https://github.com/KrystianWL/SparkleTest/releases/download/0.3.613/Cargo.dmg" length="109177223" type="application/octet-stream" sparkle:edSignature="rNvT1HZhWREDCQDoJDkby2SxRB1TW/xdLYygUt/NRdbUGN5Rpn1XYrdva8Ate9NNEjiS5uNpqi7LEjZaz0IACg=="/>
         </item>
     </channel>
 </rss>
