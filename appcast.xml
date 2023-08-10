@@ -3,12 +3,12 @@
     <channel>
         <title>Cargo</title>
         <item>
-            <title>0.2.620</title>
-            <pubDate>Thu, 10 Aug 2023 11:56:44 +0200</pubDate>
-            <sparkle:version>620</sparkle:version>
-            <sparkle:shortVersionString>0.2.620</sparkle:shortVersionString>
+            <title>0.2.622</title>
+            <pubDate>Thu, 10 Aug 2023 13:09:37 +0200</pubDate>
+            <sparkle:version>622</sparkle:version>
+            <sparkle:shortVersionString>0.2.622</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/KrystianWL/SparkleTest/releases/download/0.2.620/Cargo.dmg" length="91036582" type="application/octet-stream" sparkle:edSignature="kKYw/J8S8Avge7sHA8UQ3vmmyPa1q7AMZ9Yd9eii90oto+B/ApEqg4lDpEia/xs68uYTDCKnkFFRyJtE2j0NCg=="/>
+            <enclosure url="https://github.com/KrystianWL/SparkleTest/releases/download/0.2.622/Cargo.dmg" length="91039801" type="application/octet-stream" sparkle:edSignature="iT5VglH+P8mC1JP8SRrKkkLBIv8qCGww3hlxrj7twTrWdLepWmX5RW0OaIps5+dPuEsNKGSnM5sZvxzBI55YBw=="/>
         </item>
     </channel>
 </rss>
